@@ -7,6 +7,10 @@
 ### MeGlass_120x120.zip (https://github.com/cleardusk/MeGlass) dataset has been used for training (top validation accuracy is 0.998)
 
 ### main.py performs classification of images from ```{input_dir}```.
+Install dependencies
+```
+pip3 install --user torch torchvision mtcnn
+```
 Run classification
 ```
 python3 main.py {input_dir}
